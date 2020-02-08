@@ -33,14 +33,16 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
-
+Adaptive websites accommodate different devices at specific breakpoints in design. For example, in an adaptive website it may have hardcoded pixels for layout using media queries for different devices. However, a fully responsive website combines features of fixed, adaptive and fluid websites into one. Media queries are used to to contain responsive units, which means that the website experience looks and functions in thousands of devices and screen sizes.
 2. Describe what it means to be mobile first vs desktop first.
-
+Mobile first implies you will design and code for a mobile device first, and expand layout or features as you gain more screen space toward desktop, whereas desktop first implies that you will gear the design for desktop users and add functionality to the mobile version after.
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
-
+This is the magic number that is used as a standard because you can convert rems units by the power of 10. 1 rem would equate to 10px and it’s much easier to calculate the rem.
 4. How would you describe preprocessing to someone new to CSS?
+Preprocessing is a more robust syntax for CSS written in a different language and it is then compiled into normal CSS. It has three main concepts. The first is that it uses LESS as the language/syntax that is used to write the code. Two, the compiler Node that converts the LESS language. Finally, three, the CSS output from the compiler which is the normal CSS.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+My favorite concept is nesting. I was having a difficult time understanding it at first, but after I understood it, It became my favorite. It allows the the code to be more organized which I really enjoy. The concept that is giving me the most trouble are parametric mixing because sometimes I don’t know what to pass in the parameters.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
